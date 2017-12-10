@@ -68,7 +68,7 @@ After the new value is added, the Other Linker Flags area of the screen looks li
 
     + In Build Phases, add a run script phase (if not present) and add the below line to run the strip-frameworks script.
       bash "${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh"
-      <br /><br /><img style="border: 1px solid #ccc;" src="images/strip-frameworks.png" /><br /><br />
+      <br /><br /><img style="border: 1px solid #ccc;" src="strip-frameworks.png" /><br /><br />
 
 4. Add other required linked frameworks and libraries:
 
@@ -192,17 +192,11 @@ In addition, the SDK caches the login for approximately 14 days, which means on 
 <a name="whats_next"></a>
 ## What’s Next?
 
-### Terms of Use (TOU) and Branding
-
-See the guidelines in the Branding Guidelines.
-
-All use is covered by our Terms of Use.
-
 ### Submit Your Application for Review
 
-Adobe must review all applications that use the Creative SDK before they are released.
+Adobe must review all applications that use the Creative SDK before they are released. See the Creative SDK Branding guidelines and the terms of use.
 
-See the App Submission Guidelines for more information.
+Instructions for submitting your app for review are [here](https://creativesdk.zendesk.com/hc/en-us/articles/204601215-How-to-complete-the-Production-Client-ID-Request).
 
 ### Troubleshooting and Support
 
@@ -215,16 +209,30 @@ Now check out the rest of the Creative SDK documentation:
 
 ### Creative Cloud Content Management
 
-+ Asset Browser UI  
-+ Creative Cloud Files API  
-+ Lightroom Photos API  
-+ About Creative Cloud Libraries
++ [Asset Browser UI](/articles/assetbrowser/index.html)  
++ [Creative Cloud Files API](/articles/files/index.html)  
++ [Lightroom Photos API](/articles/photos/index.html)  
++ [About Creative Cloud Libraries](/articles/libraries/index.html)
+
+### Creative Cloud Content
+
++ [Creative Cloud Market UI](/articles/market/index.html)
+
+### Creative Tools
+
++ [Image Editor UI](/articles/imageeditor/index.html)  
++ [Color UI](/articles/color/index.html)  
 
 ### Creative Cloud Workflows
 
-+ Send To Desktop  
-+ Behance Publish UI
++ [Share Menu UI](/articles/sharemenu/index.html)  
++ [Send To Desktop](/articles/sendtodesktop/index.html)  
++ [Behance Publish UI](/articles/behance/index.html)  
+
+### Adobe Labs
+
++ [Magic Selection View](/articles/magicselection/index.html)  
 
 ### Frameworks
 
-+ Framework Dependencies
++ [Framework Dependencies](/articles/dependancies/index.html)
